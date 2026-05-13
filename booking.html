@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Visit | Dr. Kayleigh MacSwain, ND</title>
+  <meta name="description" content="Book a naturopathic appointment with Dr. Kayleigh MacSwain, ND in Toronto's West End." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="nav__logo">Dr. Kayleigh MacSwain, ND</a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+        <li><a href="booking.html" class="nav__link nav__link--cta active">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero__title">Book a Visit</h1>
+      <p class="page-hero__sub">New patients welcome</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container booking-page">
+      <div class="booking-page__info">
+        <h2>What to expect</h2>
+        <p>Your first visit is 75 minutes — long enough to actually get to know you. We'll go through your full health history, current concerns, lifestyle, and goals. You'll leave with a clear, personalized plan.</p>
+        <p>Follow-up visits are 45 minutes and are where the real work happens: reviewing your progress, adjusting your plan, and going deeper.</p>
+
+        <h3>Before your visit</h3>
+        <ul>
+          <li>You'll receive an intake form by email — please complete it before your appointment.</li>
+          <li>Bring any recent lab results or relevant medical records if you have them.</li>
+          <li>Wear comfortable clothing if you're booking an acupuncture visit.</li>
+        </ul>
+
+        <h3>Insurance &amp; payment</h3>
+        <p>Most extended health benefit plans cover naturopathic visits. I accept payment by credit card, debit, or e-transfer. Receipts are provided for all visits.</p>
+
+        <h3>Cancellation policy</h3>
+        <p>Please give at least 24 hours notice if you need to cancel or reschedule. Late cancellations may be subject to a fee.</p>
+      </div>
+
+      <div class="booking-page__form-wrap">
+        <h2>Request an appointment</h2>
+        <p class="booking-note">Use the form below to request a time, or call/email directly. I'll confirm within one business day.</p>
+
+        <!-- Replace the action URL with your preferred form handler (e.g. Formspree, Netlify Forms) -->
+        <form class="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <div class="form-group">
+            <label for="name">Full name <span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Jane Smith" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="jane@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="416-555-0100" />
+          </div>
+          <div class="form-group">
+            <label for="visit-type">Visit type <span aria-hidden="true">*</span></label>
+            <select id="visit-type" name="visit_type" required>
+              <option value="" disabled selected>Select a visit type</option>
+              <option value="new-patient">New Patient Visit (75 min)</option>
+              <option value="follow-up">Follow-Up Visit (45 min)</option>
+              <option value="acupuncture">Acupuncture Visit (60 min)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="preferred-time">Preferred days / times</label>
+            <input type="text" id="preferred-time" name="preferred_time" placeholder="e.g. Weekday mornings, Thursday afternoons" />
+          </div>
+          <div class="form-group">
+            <label for="message">Anything you'd like me to know?</label>
+            <textarea id="message" name="message" rows="4" placeholder="Brief description of your main health concerns or questions"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__name">Dr. Kayleigh MacSwain, ND</p>
+        <p class="footer__location">Toronto, West End · Ontario</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html">Book Now</a>
+      </nav>
+      <p class="footer__copy">&copy; 2026 Dr. Kayleigh MacSwain, ND. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
