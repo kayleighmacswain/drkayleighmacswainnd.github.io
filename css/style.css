@@ -501,8 +501,6 @@ em { font-style: italic; }
   border-radius: 8px;
   overflow: hidden;
   background: var(--cream-dark);
-  position: sticky;
-  top: 6rem;
 }
 
 .about-page__img {
