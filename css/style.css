@@ -322,6 +322,14 @@ em { font-style: italic; }
   margin: 0;
 }
 
+.page-hero__actions {
+  margin-top: 1.5rem;
+}
+
+.page-hero__actions .btn {
+  padding: 0.65rem 1.45rem;
+}
+
 /* ---------- Cards ---------- */
 .cards {
   display: grid;
@@ -652,12 +660,6 @@ em { font-style: italic; }
   margin-bottom: 0.4rem;
   color: var(--text-light);
   font-size: 0.95rem;
-}
-
-.booking-cta {
-  padding: 2rem 0;
-  text-align: center;
-  background: var(--cream);
 }
 
 .booking-note {
