@@ -654,6 +654,12 @@ em { font-style: italic; }
   font-size: 0.95rem;
 }
 
+.booking-cta {
+  padding: 2rem 0;
+  text-align: center;
+  background: var(--cream);
+}
+
 .booking-note {
   font-size: 0.9rem;
   color: var(--text-light);
