@@ -1165,3 +1165,9 @@ textarea { resize: vertical; }
   object-fit: contain;
   opacity: 0.9;
 }
+
+/* Booking page without form - single column */
+.booking-page--single {
+  grid-template-columns: 1fr;
+  max-width: 680px;
+}

@@ -104,7 +104,7 @@
   </section>
 
   <section class="section">
-    <div class="container booking-page">
+    <div class="container booking-page booking-page--single">
       <div class="booking-page__info">
         <p class="service-note" style="margin-bottom:1.5rem;">All visits through this practice are conducted <strong>virtually</strong>. For in-person acupuncture in Toronto, please check my instagram bio for a booking link.</p>
         <h3>Before your visit</h3>
@@ -118,46 +118,7 @@
         <p>I accept payment by credit card or e-transfer. Receipts are provided for all visits.</p>
 
         <h3>Cancellation policy</h3>
-        <p>Please give at least 48 hours notice if you need to cancel or reschedule. Late cancellations are subject to a fee equal to 50% of your booked visit. </p>
-      </div>
-
-      <div class="booking-page__form-wrap">
-        <h2>Request an appointment</h2>
-        <p class="booking-note">Use the form below to request a time, or call/email directly. I'll confirm within one business day.</p>
-
-        <!-- Replace the action URL with your preferred form handler (e.g. Formspree, Netlify Forms) -->
-        <form class="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
-          <div class="form-group">
-            <label for="name">Full name <span aria-hidden="true">*</span></label>
-            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Jane Smith" />
-          </div>
-          <div class="form-group">
-            <label for="email">Email <span aria-hidden="true">*</span></label>
-            <input type="email" id="email" name="email" required autocomplete="email" placeholder="jane@example.com" />
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="416-555-0100" />
-          </div>
-          <div class="form-group">
-            <label for="visit-type">Visit type <span aria-hidden="true">*</span></label>
-            <select id="visit-type" name="visit_type" required>
-              <option value="" disabled selected>Select a visit type</option>
-              <option value="new-patient">New Patient Visit - $275</option>
-              <option value="follow-up-60">Follow-Up Visit (60 min) - $230</option>
-              <option value="follow-up-45">Follow-Up Visit (45 min) - $200</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="preferred-time">Preferred days / times</label>
-            <input type="text" id="preferred-time" name="preferred_time" placeholder="e.g. Weekday mornings, Thursday afternoons" />
-          </div>
-          <div class="form-group">
-            <label for="message">Anything you'd like me to know?</label>
-            <textarea id="message" name="message" rows="4" placeholder="Brief description of your main health concerns or questions"></textarea>
-          </div>
-          <button type="submit" class="btn btn--primary btn--full">Send request</button>
-        </form>
+        <p>Please give at least 48 hours notice if you need to cancel or reschedule. Late cancellations are subject to a fee equal to 50% of your booked visit.</p>
       </div>
     </div>
   </section>
