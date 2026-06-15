@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <!-- Base cream background -->
+  <rect width="1200" height="1200" fill="#ede7de"/>
+
+  <!-- Soft gradient overlay -->
+  <defs>
+    <radialGradient id="bg-grad" cx="35%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f7f3ee" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#d4c5b5" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg-grad)"/>
+
+  <!-- Large decorative botanical — top left -->
+  <g transform="translate(80, 60) scale(5)" stroke="#b5614a" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.18">
+    <line x1="20" y1="130" x2="20" y2="20"/>
+    <path d="M20 100 C10 92 2 96 -2 88 C6 80 14 84 20 92"/>
+    <path d="M20 76 C30 68 38 72 42 64 C34 56 26 60 20 68"/>
+    <path d="M20 118 C14 110 8 112 4 106 C9 100 16 102 20 110"/>
+    <path d="M20 56 C28 48 34 50 36 44 C30 38 24 40 20 46"/>
+    <circle cx="20" cy="14" r="4" fill="#b5614a" stroke="none"/>
+  </g>
+
+  <!-- Large decorative botanical — bottom right -->
+  <g transform="translate(980, 900) scale(4.5)" stroke="#7a8c72" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.15">
+    <line x1="20" y1="130" x2="20" y2="20"/>
+    <path d="M20 100 C10 92 2 96 -2 88 C6 80 14 84 20 92"/>
+    <path d="M20 76 C30 68 38 72 42 64 C34 56 26 60 20 68"/>
+    <path d="M20 118 C14 110 8 112 4 106 C9 100 16 102 20 110"/>
+    <circle cx="20" cy="14" r="4" fill="#7a8c72" stroke="none"/>
+  </g>
+
+  <!-- Small sprig — top right -->
+  <g transform="translate(1050, 80) scale(2.5)" stroke="#b5614a" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.12">
+    <line x1="20" y1="80" x2="20" y2="14"/>
+    <path d="M20 60 C14 56 8 58 6 54 C10 50 16 52 20 56"/>
+    <path d="M20 44 C26 40 32 42 34 38 C30 34 24 36 20 40"/>
+    <circle cx="20" cy="10" r="3" fill="#b5614a" stroke="none"/>
+  </g>
+
+  <!-- Thin horizontal rule centre -->
+  <line x1="300" y1="600" x2="900" y2="600" stroke="#b5614a" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Centre name mark (very subtle watermark) -->
+  <text x="600" y="588" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="300" fill="#3b2e28" opacity="0.12" text-anchor="middle" letter-spacing="6">DR. KAYLEIGH MACSWAIN, ND</text>
+  <text x="600" y="618" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="300" fill="#3b2e28" opacity="0.1" text-anchor="middle" letter-spacing="4">NATUROPATHIC MEDICINE</text>
+</svg>
