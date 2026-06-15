@@ -1171,3 +1171,13 @@ textarea { resize: vertical; }
   grid-template-columns: 1fr;
   max-width: 680px;
 }
+
+/* Insurance note under visit fees */
+.insurance-note {
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--text-light);
+  margin-top: 1.5rem;
+  max-width: 560px;
+  margin-inline: auto;
+}
